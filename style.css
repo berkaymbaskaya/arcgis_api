@@ -1,0 +1,226 @@
+@import url(https://fonts.googleapis.com/css?family=Bungee);
+body{
+    height: 100vh;
+    margin: 0;
+  
+    
+}
+   .container{
+  width: 100vw;
+  height: 100vh;
+  display: flex ;
+}
+
+
+#viewDiv{
+  width: 100vw;
+  height: 100vh;
+    float: left;
+    z-index:3 ;
+    position: relative;
+
+
+       }
+
+
+.select {
+    width: 180px;
+    height: 50px;
+    float: left;
+    z-index:999;
+    position: fixed;
+    background: whitesmoke;
+    cursor:pointer;
+    font-family:'Bungee';
+    margin-top: 65px;
+    margin-left:5px;
+    color: #60666d;
+    border-radius: 13px;
+    transition: .4s;
+ }
+
+
+ .select:hover {
+   background-color: rgb(170, 195, 212);
+ }
+ .sbmt{
+  
+    width: 80px;
+    height: 30px;
+    font-size:10px;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: whitesmoke;
+    z-index: 999;
+    float: left;
+    position: fixed;
+    margin-top: 120px;
+    font-family:'Bungee';
+    color: #60666d;
+  border-width: .4px;
+  border-color: #60666d;
+  margin-left: 6px;
+  border-radius: 15px;
+  transition: .4s;
+    
+    }
+.sbmt:hover{
+background-color: rgb(170, 195, 212);
+
+}
+
+.table{
+float: left;
+margin-left: 30%;
+width: 40%;
+height: 50px;
+background-color: rgb(128, 128, 128, 0.7);
+position: fixed;
+z-index: 999;
+bottom: 20px;
+border-radius: 50px;
+justify-content: center;
+text-align: center;
+}
+
+#i1{
+  border-style: none;
+  color: white;
+  margin-left: 1px;
+  margin-top: 15px;
+  font-size: 20px;  
+  text-decoration: none;
+}
+#i1:hover{
+color: rgb(63, 103, 107);
+font-size: 21px;
+}
+#i2{
+  border-style: none;
+  color: white;
+  margin-left: 50px;
+  margin-top: 15px;
+  font-size: 20px;  
+  text-decoration: none;
+}
+#i2:hover{
+  color: rgb(63, 103, 107);
+  font-size: 21px;
+  }
+#i3{
+  border-style: none;
+  color: white;
+  margin-left: 50px;
+  margin-top: 15px;
+  font-size: 20px;  
+  text-decoration: none;
+}
+#i3:hover{
+  color: rgb(63, 103, 107);
+  font-size: 21px;
+  }
+#sidebar{
+z-index: -1;
+width: 300px;
+transition:  0.5s linear;
+    -moz-transition:  0.5s linear; /* Firefox 4 */
+    -webkit-transition:  0.5s linear; /* Safari and Chrome */
+    -o-transition:  0.5s linear; /* Opera */
+    -ms-transition:  0.5s linear; /* Explorer 10 */
+border:solid;
+height: 200px;
+position: fixed;
+margin-top: 90px;
+background-color: rgb(165, 165, 168, 0.5);
+opacity:0;
+border-radius: 20px;
+}
+.sidebar:hover{
+background-color: rgb(165, 165, 168, 0.7);
+}
+
+#close{
+position: absolute;
+top:20px;
+right: 10px;
+font-size: 27px;
+color: rgb(39, 76, 116);
+text-decoration: none;
+}
+#close:hover{
+color:whitesmoke;
+}
+
+#close1{
+  position: absolute;
+  top:20px;
+  right: 10px;
+  font-size: 27px;
+  color: rgb(39, 76, 116);
+  text-decoration: none;
+  }
+  #close1:hover{
+    color:whitesmoke;
+    }
+    
+    #close2{
+      position: absolute;
+      top:20px;
+      right: 10px;
+      font-size: 27px;
+      color: rgb(39, 76, 116);
+      text-decoration: none;
+      }
+      #close2:hover{
+        color:whitesmoke;
+        }
+
+#p1{
+position: absolute;
+top: 0px;
+left: 5px;
+font-family:'Bungee';
+font-size: 14px;
+color: #53585e;
+padding-left: 8px;
+}
+
+
+#sidebar2{
+  z-index: -1;
+  width: 300px;
+  transition:  0.5s linear;
+      -moz-transition:  0.5s linear; /* Firefox 4 */
+      -webkit-transition:  0.5s linear; /* Safari and Chrome */
+      -o-transition:  0.5s linear; /* Opera */
+      -ms-transition:  0.5s linear; /* Explorer 10 */
+  border:solid;
+  height: 200px;
+  position: fixed;
+margin-top: 300px;
+  background-color: rgb(165, 165, 168, 0.5);
+  opacity:0;
+  border-radius: 20px;
+  }
+  .sidebar2:hover{
+  background-color: rgb(165, 165, 168, 0.7);
+  }
+
+  #sidebar3{
+    z-index: -1;
+    width: 300px;
+    transition:  0.5s linear;
+        -moz-transition:  0.5s linear; /* Firefox 4 */
+        -webkit-transition:  0.5s linear; /* Safari and Chrome */
+        -o-transition:  0.5s linear; /* Opera */
+        -ms-transition:  0.5s linear; /* Explorer 10 */
+    border:solid;
+    height: 200px;
+    position: fixed;
+  bottom: 35px;
+    background-color: rgb(165, 165, 168, 0.5);
+    opacity:0;
+    border-radius: 20px;
+    }
+    .sidebar3:hover{
+    background-color: rgb(165, 165, 168, 0.7);
+    }

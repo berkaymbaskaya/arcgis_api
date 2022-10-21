@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://js.arcgis.com/4.24/esri/themes/light/main.css">
+    <script src="https://js.arcgis.com/4.24/"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+
+<div class="container">
+
+<div class="table"> 
+
+  <a id="i1" href="javascript:void(0)" class="fa fa-road"> Yol bakım </a> 
+  <a id="i2" href="javascript:void(0)" class="fa fa-car"> Otopark </a> 
+  <a id="i3" href="javascript:void(0)" class="fa fa-bus"> Metro İstasyon</a> 
+ 
+
+</div>
+
+
+    <div class="sidebar" id="sidebar">
+    <p id="p1">Yol bakım çalışmaları</p>
+    <a href="javascript:void(0)" id="close" class="fa fa-times-circle"></a>
+    <select name="ilceler" class="select" id="ilceler">
+    <option value="0">İlçe Seçiniz:</option>
+    
+    </select> 
+    <button type="button" id="sbmt" class="sbmt"  > Filtrele</button>
+
+  </div>
+
+
+  <div class="sidebar" id="sidebar2">
+    <p id="p1">Otoparklar</p>
+    <a href="javascript:void(0)" id="close1" class="fa fa-times-circle"></a>
+    <select name="ilceler" class="select" id="ilceler1">
+    <option value="0">İlçe Seçiniz:</option>
+    
+    </select> 
+    <button type="button" id="sbmt1" class="sbmt" > Filtrele</button>
+
+  </div>
+  <div class="sidebar" id="sidebar3">
+    <p id="p1">Metro İstasyonları</p>
+    <a href="javascript:void(0)" id="close2" class="fa fa-times-circle"></a>
+    <select name="ilceler" class="select" id="ilceler1">
+    <option value="0">İstanbul</option>
+    
+    </select> 
+    <button type="button" id="sbmt2" class="sbmt" > Filtrele</button>
+
+  </div>
+
+
+    <div id="viewDiv"> </div>  
+</div>
+
+
+
+
+<script src="./app.js"> </script>
+<script src="./ilceler.js"> </script>
+<script src="./metro.js"></script>
+<script src="./yolbakım.js"></script>
+</body>
+</html>
